@@ -1,0 +1,13 @@
+/* Import af andre stylesheets - så alle stylesheets samles under et*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+/*mit primære mobile-first stylesheet*/
+@import 'main.css';
+
+/*stylesheet til css media queries*/
+@import 'mediaqueries.css';
+
+/*stylesheet til css carousel*/
+@import 'carousel.css';

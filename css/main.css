@@ -1,0 +1,165 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #ffebfc;
+  color: #707070;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+:target {              /*target-styling*/
+  display: block;      /*display-property,block element, ligesom <p>*/
+  position: relative; /*flytter elementet -65px i forhold til normal pos*/
+  top: -146px;
+  visibility: hidden;  /*block-element er ikke synligt, men optager plads*/
+}
+
+.bg-dark {
+  background-color: #ffebfc !important;
+}
+.bg-light {
+    background-color: #ffebfc!important;
+}
+
+.nav-link {
+  color: #707070 !important;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+a.nav-link:hover {
+  color: #cdb2da !important;
+  padding-top: 5px !important;
+}
+
+.navbar-collapse {
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+
+/*fjernelse af blå markering rundt om toggler, efter man har trykket på den*/
+.navbar-toggler:focus{
+ outline: none !important;
+ box-shadow: none;
+}
+
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-x: hidden;
+}
+  .py-3 {
+  margin-top: 160px !important;
+}
+
+/*h1 overskrifter*/
+h1 {
+  font-size: 2rem;
+}
+
+/*card-overlay*/
+.card-img-overlay {
+  background-color: #0000008f;
+  opacity: 0;
+    transition: opacity 1s;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img-overlay:hover {
+  background-color: #0000008f;
+  opacity: 1;
+}
+
+/*styling af knappen*/
+.btn-primary {
+background-color: #faf08f00;
+  border-color: #faf08f;
+  color: #faf08f !important;
+}
+.btn-primary:hover {
+  background-color: #cdb2da;
+  border-color: #cdb2da;
+  color: white !important;
+}
+.btn-primary:active {
+  background-color: #cdb2da82 !important;
+  border-color: #cdb2da82 !important;
+  color: white !important;
+}
+
+.buttonText {
+  font-size: 1.8rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*link styling*/
+a:link {
+  text-decoration: none;
+  color:#cdb2da;
+}
+
+a:hover {
+  color: #cdb2da82 !important;
+}
+
+.button {
+    padding: 7px 7px;
+    background-color: #faf08f;
+    width: 170px;
+    text-decoration: none;
+    color: #707070;
+    border-radius: 25px;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+a:hover.button{
+background-color: #cdb2da;
+ cursor: pointer;
+ color: white !important;
+}
+.button:active {
+  background-color: #cdb2da82 !important;
+  border-color: #cdb2da82 !important;
+  color: white !important;
+}
+
+/*Go to top knap*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #faf08f;
+  color: #707070;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#myBtn:hover {
+  background-color: #cdb2da;
+  color: white;
+}
+
+/*Footer text light*/
+.text-center {
+  font-weight: 100;
+  color: #707070;
+}

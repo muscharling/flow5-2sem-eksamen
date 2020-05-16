@@ -1,0 +1,8 @@
+/* css til media queries*/
+
+@media screen and (max-width: 991px){
+
+.fab{
+  display: none;
+}
+};

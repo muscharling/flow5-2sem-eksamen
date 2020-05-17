@@ -3,7 +3,9 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #ffebfc;
   color: #707070;
@@ -61,6 +63,14 @@ a.nav-link:hover {
 /*h1 overskrifter*/
 h1 {
   font-size: 2rem;
+}
+h2 {
+    font-size: 4rem;
+    color: #faf08f;
+}
+.front {
+  color: #faf08f !important;
+  font-size: 1.3rem;
 }
 
 /*card-overlay*/
@@ -133,23 +143,18 @@ background-color: #cdb2da;
 }
 
 /*fixed baggrundsbillede*/
-.bg {
-  position: relative;
-  text-align: center;
-  color: white;
- background-attachment: fixed;
+#parallax-image .parallax-one{
+overflow: hidden;
+position: relative;
+width: 100%;
+background: url('../img/bg-diy-web.png');
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 20px;
-  z-index: 2;
-}
-#højre {
-  float:right;
-}
+
 
 /*Go to top knap*/
 #myBtn {

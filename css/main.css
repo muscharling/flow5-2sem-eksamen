@@ -55,7 +55,7 @@ a.nav-link:hover {
   overflow-x: hidden;
 }
   .py-3 {
-  margin-top: 160px !important;
+  margin-top: 140px !important;
 }
 
 /*h1 overskrifter*/
@@ -130,6 +130,25 @@ background-color: #cdb2da;
   background-color: #cdb2da82 !important;
   border-color: #cdb2da82 !important;
   color: white !important;
+}
+
+/*fixed baggrundsbillede*/
+.bg {
+  position: relative;
+  text-align: center;
+  color: white;
+ background-attachment: fixed;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  z-index: 2;
+}
+#højre {
+  float:right;
 }
 
 /*Go to top knap*/

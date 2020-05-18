@@ -12,7 +12,7 @@ body {
   font-family: 'Pathway Gothic One', sans-serif;
 }
 p{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;;
 }
 :target {              /*target-styling*/
   display: block;      /*display-property,block element, ligesom <p>*/

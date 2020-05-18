@@ -4,7 +4,7 @@
 @import url('https://unpkg.com/aos@next/dist/aos.css');
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
 
 /*mit primære mobile-first stylesheet*/
 @import 'main.css';

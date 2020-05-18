@@ -11,6 +11,9 @@ body {
   color: #707070;
   font-family: 'Pathway Gothic One', sans-serif;
 }
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
 :target {              /*target-styling*/
   display: block;      /*display-property,block element, ligesom <p>*/
   position: relative; /*flytter elementet -65px i forhold til normal pos*/
@@ -62,6 +65,15 @@ h1 {
 h2 {
     font-size: 4rem;
     color: #faf08f;
+}
+.daisy-overskrift {
+  font-size: 2.5rem;
+}
+
+/* tekster */
+.grey {
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
 /*card-overlay*/
@@ -177,7 +189,9 @@ padding: 0;
 .full-width-image img {
   width: 100%;
 }
-
+.daisy {
+  background-color: #FFEBFC;
+}
 /*Go to top knap*/
 #myBtn {
   display: none;

@@ -63,10 +63,6 @@ h2 {
     font-size: 4rem;
     color: #faf08f;
 }
-.front {
-  color: #faf08f !important;
-  font-size: 1.3rem;
-}
 
 /*card-overlay*/
 .card-img-overlay {
@@ -119,7 +115,7 @@ a:hover {
     background-color: #faf08f;
     width: 170px;
     text-decoration: none;
-    color: #707070;
+    color: #707070 !important;
     border-radius: 25px;
     font-size: 1.4rem;
     text-align: center;
@@ -169,10 +165,10 @@ padding: 0;
 }
 .header {
   color:#faf08f;
-  z-index: 2;
 }
 .front {
-  z-index: 2;
+  color: #faf08f !important;
+  font-size: 1.3rem;
 }
 
 /*Go to top knap*/

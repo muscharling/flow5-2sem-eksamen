@@ -155,9 +155,6 @@ background-size: cover;
 -webkit-background-size: cover;
 background-repeat: no-repeat;
 background-position: top center;
-transform: translate3d(0,0,0);
--webkit-transform: translate3d(0,0,0);
-
 }
 .container-fluid {
 padding: 0;
@@ -194,6 +191,11 @@ padding: 0;
 }
 .daisy {
   background-color: #FFEBFC;
+}
+/* Instagram-feed custom css*/
+
+.eapps-remove-link {
+    visibility:hidden;
 }
 /*Go to top knap*/
 #myBtn {

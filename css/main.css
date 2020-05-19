@@ -143,7 +143,7 @@ background-color: #cdb2da;
  cursor: pointer;
  color: #707070 !important;
 }
-.button:active {
+.btn-primary:active {
   background-color: #cdb2da82 !important;
   border-color: #cdb2da82 !important;
   color: #707070 !important;
@@ -196,6 +196,30 @@ padding: 0;
   background-color: #FFEBFC;
 }
 /*Sign up newsletter section */
+.signup {
+  position: relative;
+  text-align: center;
+  color: #faf08f;
+}
+.sign-up-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-control {
+    background-color: #faf08f;
+    border-radius: 1.25rem;
+    padding-left: 20px !important;
+  }
+.form-control:active {
+  background-color: #faf08f !important;
+}
+  button:active {
+    background-color: #cdb2da82 !important;
+    border-color: #cdb2da82 !important;
+    color: #707070 !important;
+  }
 
 
 /* Instagram-feed custom css*/

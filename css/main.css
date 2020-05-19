@@ -73,7 +73,7 @@ h2 {
 
 
 
-/* tekster */
+/* tekster*/
 .grey {
   font-size: 1.1rem;
   line-height: 1.2;
@@ -148,7 +148,7 @@ background-color: #cdb2da;
   color: #707070 !important;
 }
 
-/*fixed baggrundsbillede*/
+/*fixed baggrundsbillede1*/
 #parallax-image .parallax-one {
 overflow-x: hidden;
 width: 100%;
@@ -197,7 +197,7 @@ padding: 0;
 /*Sign up newsletter section */
 .signup {
   position: relative;
-  text-align: center; 
+  text-align: center;
   color: #faf08f;
 }
 .sign-up-text {

@@ -6,3 +6,21 @@
   display: none;
 }
 };
+
+@include media-breakpoint-up(sm) {
+  .front {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .front {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .front {
+    font-size: 1.3rem;
+  }
+}

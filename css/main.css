@@ -70,6 +70,9 @@ h2 {
 .h1-grey {
   font-size: 2.3rem;
 }
+.kontakt{
+  color: #707070;
+}
 
 /* tekster */
 .grey {
@@ -223,6 +226,10 @@ padding: 0;
   color: #707070;
 }
 
+/* kontakt formular */
+.konakt-formular {
+  background-color: #faf08f;
+}
 /*Footer text light*/
 .text-center {
   font-weight: 100;

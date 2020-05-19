@@ -10,6 +10,7 @@ body {
   background-color: #ffebfc;
   color: #707070;
   font-family: 'Pathway Gothic One', sans-serif;
+  overflow-x: hidden;
 }
 p{
   font-family: 'Barlow Condensed', sans-serif;;
@@ -149,15 +150,17 @@ background-color: #cdb2da;
 }
 
 /*fixed baggrundsbillede*/
-#parallax-image .parallax-one{
-overflow: hidden;
-/*position: relative;*/
+#parallax-image .parallax-one {
+overflow-x: hidden;
 width: 100%;
-background: url('../img/bg-diy-web.png');
-background-attachment: fixed;
+background: url('../img/fixed-img.jpg')no-repeat center center fixed;
 background-size: cover;
+-webkit-background-size: cover;
 background-repeat: no-repeat;
 background-position: top center;
+transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+
 }
 .container-fluid {
 padding: 0;

@@ -28,8 +28,6 @@
 AOS.init();
 
 // Kontakt formular
-<<<<<<< HEAD
-=======
 
 $(function()
 {
@@ -113,4 +111,3 @@ $(function()
     });
   }, false);
 })();
->>>>>>> 5c5236fd8055eca712cc3515062ab98acf02038d

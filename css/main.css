@@ -195,11 +195,12 @@ padding: 0;
 .daisy {
   background-color: #FFEBFC;
 }
+/*Sign up newsletter section */
+
+
 /* Instagram-feed custom css*/
 
-.eapps-remove-link {
-    visibility:hidden;
-}
+
 /*Go to top knap*/
 #myBtn {
   display: none;

@@ -3,18 +3,7 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
-body {
-  background-color: #ffebfc;
-  color: #707070;
-  font-family: 'Pathway Gothic One', sans-serif;
-  overflow-x: hidden;
-}
-p{
-  font-family: 'Barlow Condensed', sans-serif;;
-}
+
 :target {              /*target-styling*/
   display: block;      /*display-property,block element, ligesom <p>*/
   position: relative; /*flytter elementet -65px i forhold til normal pos*/
@@ -22,6 +11,26 @@ p{
   visibility: hidden;  /*block-element er ikke synligt, men optager plads*/
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 1.1rem;
+}
+body {
+  background-color: #ffebfc;
+  color: #707070;
+  font-family: 'Pathway Gothic One', sans-serif;
+  /*overflow-x: hidden;*/
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h2 {
+    color: #faf08f;
+}
+
+/*navbar*/
 .bg-dark {
   background-color: #ffebfc !important;
 }
@@ -55,31 +64,22 @@ a.nav-link:hover {
  box-shadow: none;
 }
 
-  .py-3 {
-  margin-top: 140px !important;
+/*afstand mellem navbar og 1.overskrift*/
+.py-3 {
+margin-top: 140px !important;
 }
 
-/*h1 overskrifter*/
-h1 {
-  font-size: 2rem;
-}
-h2 {
-    font-size: 4rem;
-    color: #faf08f;
-}
-.h1-grey {
-  font-size: 2.3rem;
+/*link styling*/
+a:link {
+  text-decoration: none;
+  color:#cdb2da;
 }
 
-
-
-/* tekster*/
-.grey {
-  font-size: 1.1rem;
-  line-height: 1.2;
+a:hover {
+  color: #cdb2da82 !important;
 }
 
-/*card-overlay*/
+/*card-overlay - slideshow sektionen*/
 .card-img-overlay {
   background-color: #0000008f;
   opacity: 0;
@@ -93,7 +93,7 @@ h2 {
   opacity: 1;
 }
 
-/*styling af knappen*/
+/*styling af tekst/knapperne i slideshow*/
 .btn-primary {
 background-color: #faf08f00;
   border-color: #faf08f;
@@ -115,16 +115,8 @@ background-color: #faf08f00;
   padding-left: 20px;
   padding-right: 20px;
 }
-/*link styling*/
-a:link {
-  text-decoration: none;
-  color:#cdb2da;
-}
 
-a:hover {
-  color: #cdb2da82 !important;
-}
-
+/* se alle tutorials knap*/
 .button {
     padding: 7px 7px;
     background-color: #faf08f;
@@ -142,11 +134,7 @@ background-color: #cdb2da;
  cursor: pointer;
  color: #707070 !important;
 }
-.btn-primary:active {
-  background-color: #cdb2da82 !important;
-  border-color: #cdb2da82 !important;
-  color: #707070 !important;
-}
+
 
 /*fixed baggrundsbillede1*/
 #parallax-image .parallax-one {
@@ -158,6 +146,8 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: top center;
 }
+
+/*Lær at lave Daisy øreringe slide-in sektion*/
 .container-fluid {
 padding: 0;
 }
@@ -184,17 +174,27 @@ padding: 0;
 .header {
   color:#faf08f;
 }
-.front {
-  color: #faf08f !important;
-  font-size: 1.3rem;
-}
+
 .full-width-image img {
   width: 100%;
 }
+
+/*Lær at lave Daisy øreringe tutorial siden*/
 .daisy {
   background-color: #FFEBFC;
 }
+
 /*Sign up newsletter section */
+/*fixed baggrundsbillede2 */
+#parallax-image2 .parallax-two {
+overflow-x: hidden;
+width: 100%;
+background: url('../img/sign-up2.png')no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+}
 .signup {
   position: relative;
   text-align: center;
@@ -205,24 +205,45 @@ padding: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 .form-control {
-    background-color: #faf08f;
+    background-color: #faf08f !important;
     border-radius: 1.25rem;
     padding-left: 20px !important;
+    border: none !important;
+    font-size: 1.1rem;
   }
 .form-control:active {
   background-color: #faf08f !important;
 }
-  button:active {
-    background-color: #cdb2da82 !important;
-    border-color: #cdb2da82 !important;
-    color: #707070 !important;
-  }
+.btn-without-border:focus {
+    border: none !important;
+    outline: none !important;
+}
+.btn-without-border {
+  padding: 4px 4px;
+  background-color: #faf08f;
+  width: 100px;
+  text-decoration: none;
+  color: #707070 !important;
+  border-radius: 25px;
+  font-size: 1.4rem !important;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+.btn-without-border:hover{
+background-color: #cdb2da !important;
+ cursor: pointer;
+ color: #707070 !important;
+}
 
-
-/* Instagram-feed custom css*/
-
+/* Invalid feedback farve*/
+.invalid-feedback {
+    color: #faf08f;
+}
 
 /*Go to top knap*/
 #myBtn {
@@ -250,10 +271,7 @@ padding: 0;
   color: #707070;
 }
 
-/* kontakt formular */
-
 /*Footer text light*/
 .text-center {
-  font-weight: 100;
   color: #707070;
 }

@@ -70,6 +70,10 @@ margin-top: 140px !important;
 }
 
 /*link styling*/
+a {
+  font-size: 1.1rem;
+    color: #707070 !important;
+}
 a:link {
   text-decoration: none;
   color:#cdb2da;
@@ -269,6 +273,11 @@ background-color: #cdb2da !important;
 #myBtn:hover {
   background-color: #cdb2da;
   color: #707070;
+}
+
+/*nyttige links - afstand mellem icon og text*/
+.far, .fas, .fa-facebook-f, .fa-instagram, .fa-pinterest {
+  margin-right: 10px;
 }
 
 /*Footer text light*/

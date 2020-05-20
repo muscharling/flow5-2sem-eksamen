@@ -249,6 +249,36 @@ background-color: #cdb2da !important;
     color: #faf08f;
 }
 
+/* Kontakt formular */
+.kontakt-formular {
+  background-color:  #faf08f;
+  border-radius: 1rem;
+}
+
+.form-kontakt{
+  background-color: white !important;
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1) !important;
+  margin-top: 6%;
+}
+
+.knap-kontakt{
+  background-color: white;
+  border-radius: 1.5rem;
+  border: none !important;
+  outline: none !important;
+  color: #707070;
+  cursor: pointer;
+}
+
+.knap-kontakt:hover {
+  background-color: #cdb2da !important;
+   cursor: pointer;
+}
+
+.invalid-feedback2{
+  color: red;
+}
+
 /*Go to top knap*/
 #myBtn {
   display: none;

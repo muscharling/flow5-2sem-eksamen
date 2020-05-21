@@ -69,6 +69,17 @@ a.nav-link:hover {
 margin-top: 140px !important;
 }
 
+/*breadcrumbs*/
+.breadcrumb {
+  padding: 0 !important;
+  background-color: #e9ecef00 !important;
+  color: #707070 !important;
+}
+.breadcrumb-item.active {
+    color: #707070 important;
+    font-size: 1.1rem;
+  }
+
 /*link styling*/
 a {
   font-size: 1.1rem;

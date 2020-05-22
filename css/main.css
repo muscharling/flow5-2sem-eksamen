@@ -199,6 +199,9 @@ padding: 0;
   background-color: #FFEBFC;
 }
 
+ul {
+  padding-left: 3.5%;
+}
 /*Sign up newsletter section */
 /*fixed baggrundsbillede2 */
 #parallax-image2 .parallax-two {

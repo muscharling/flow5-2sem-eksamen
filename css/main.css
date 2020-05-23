@@ -196,14 +196,12 @@ padding: 0;
 
 /*Lær at lave Daisy øreringe tutorial siden*/
 .daisy {
-  background-color: #FFEBFC;
-  padding-left: 10%;
-  margin-top: -2.5%;
+  background-color: none;
+  margin-top: -6.5%;
 }
 
 ul {
-  padding-left: 7%;
-  padding-left: 6.5%;
+  padding-left: 8%;
 }
 /*.info {
   margin-top: -20px;

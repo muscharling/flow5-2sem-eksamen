@@ -76,7 +76,7 @@ margin-top: 140px !important;
   color: #707070 !important;
 }
 .breadcrumb-item.active {
-    color: #707070 important;
+    color: #707070 !important;
     font-size: 1.1rem;
   }
 
@@ -117,7 +117,7 @@ background-color: #faf08f00;
 .btn-primary:hover {
   background-color: #cdb2da;
   border-color: #cdb2da;
-  color: #707070 !important;
+  color: #faf08f !important;
 }
 .btn-primary:active {
   background-color: #cdb2da82 !important;
@@ -147,7 +147,7 @@ background-color: #faf08f00;
 a:hover.button{
 background-color: #cdb2da;
  cursor: pointer;
- color: #707070 !important;
+ color: #faf08f !important;
 }
 
 
@@ -184,7 +184,7 @@ padding: 0;
 }
 .button2:hover {
   background-color: #cdb2da;
-  color: #707070 !important;
+  color: #faf08f !important;
 }
 .header {
   color:#faf08f;
@@ -262,7 +262,7 @@ background-position: top center;
 .btn-without-border:hover{
 background-color: #cdb2da !important;
  cursor: pointer;
- color: #707070 !important;
+ color: #faf08f !important;
 }
 
 /* Invalid feedback farve*/
@@ -323,7 +323,7 @@ background-color: #cdb2da !important;
 
 #myBtn:hover {
   background-color: #cdb2da;
-  color: #707070;
+  color: #faf08f;
 }
 
 /*nyttige links - afstand mellem icon og text*/

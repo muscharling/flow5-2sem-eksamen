@@ -393,6 +393,10 @@ background-color: #cdb2da !important;
   margin-right: 10px;
   cursor: pointer;
 }
+.my-btn:focus{
+  border: none !important;
+  outline: none !important;
+}
 
 .btn-tutorial, select {
   text-transform: none;

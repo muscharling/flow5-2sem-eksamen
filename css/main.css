@@ -338,6 +338,7 @@ background-color: #cdb2da !important;
   color: #707070;
 }
 
+/* Smykketutorials siden*/
 
 .tutorials {
   /*margin-left: 50px;
@@ -394,7 +395,7 @@ button {
   transition-duration: 0.2s !important;
   transition-timing-function: ease-out !important;
   transition-delay: 0s !important;
-
+}
 button {
   text-rendering: auto;
   letter-spacing: normal;
@@ -433,17 +434,18 @@ button {
   padding-left: 0px;
 }
 .card-body {
-  padding-right: 10px;
-
+  padding: 0 !important;
+  background-color: white !important;
 }
 
 .card-body p {
   display: block;
+
 }
 .tutorials-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: none !important;
+  /*background-color: none !important;*/
   grid-column-gap: 50px;
 }
 .grid-item {
@@ -453,7 +455,5 @@ button {
   font-size: 20px;
   text-align: left;
   align-items: center;
+  /*background-color: white !important;*/
 }
-/*.card3 {
-  background-color: none !important;
-}*/

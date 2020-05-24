@@ -7,6 +7,16 @@
 }
 };
 
+@media (min-width: 768px)
+.tutorials {
+  max-width:720px;
+}
+
+@media (min-width: 576px)
+.tutorials {
+  max-width: 576px;
+}
+
 
 
 /*@media screen and (min-width: 992px) {

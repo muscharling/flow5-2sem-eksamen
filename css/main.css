@@ -454,7 +454,8 @@ background-color: #cdb2da !important;
 
 .card-body {
 border-top: 1px solid #cdb2da85 !important;
-background-color: #ffebfc8c;
+background-color: #ffebfc;
+box-shadow: 2px 2px 2px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 /*

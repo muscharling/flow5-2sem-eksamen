@@ -368,7 +368,7 @@ background-color: #cdb2da !important;
   border-radius: .25rem;
   /*margin-right: 5px;*/
   margin-bottom: 20px;
-
+  margin-right: 10px;
 }
 button, select {
   text-transform: none;
@@ -429,7 +429,7 @@ button {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  
+
 }
 
 

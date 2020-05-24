@@ -231,7 +231,7 @@ background-position: top center;
 
 }
 .form-control {
-    background-color: #faf08f !important;
+  /*  background-color: #faf08f !important;*/
     border-radius: 5px;
     padding-left: 20px !important;
     border: none !important;

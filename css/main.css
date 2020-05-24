@@ -373,6 +373,30 @@ background-color: #cdb2da !important;
 
 
 
+.my-btn {
+  margin-top: 10px;
+  color: #707070;
+  background-color: white;
+  outline: none;
+  border:none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  /*margin-right: 5px;*/
+  margin-bottom: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.my-btn:focus{
+  border: none !important;
+  outline: none !important;
+}
+
+
 .btn-tutorial, select {
   text-transform: none;
 }
@@ -411,7 +435,7 @@ background-color: #cdb2da !important;
   margin-bottom: 20px;
   margin-right: 10px;
   cursor: pointer;
-  
+
 }
 .btn-tutorial:hover{
  background-color: #cdb2da !important;
@@ -419,6 +443,7 @@ background-color: #cdb2da !important;
  color: #faf08f !important;
 }
 
+<<<<<<< HEAD
 .tutorial-link{
   background-color: #faf08f;
     border-color: #faf08f;
@@ -426,6 +451,11 @@ background-color: #cdb2da !important;
     text-decoration: none !important;
   }
 
+=======
+.card-body {
+border-top: 1px solid #cdb2da85 !important;
+}
+>>>>>>> a7f6279597f98e46131e5102b9349ac1698cdd64
 /*
 .tutorials-grid {
   display: flex;

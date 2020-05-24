@@ -337,15 +337,18 @@ background-color: #cdb2da !important;
 .text-center {
   color: #707070;
 }
-
+/*
 .tutorials {
   /*margin-left: 50px;
   margin-right: 50px; */
-  margin: 0px 73.5px;
-  padding: 0px 15px;
-  justify-content: space-between;
+  /*margin: 0px 73.5px;
+  /*padding: 0px 15px;*/
+/*  justify-content: space-between;
 }
-
+*/
+.my-btn.active {
+  background-color: #cdb2da;
+}
 #showall {
   background-color: #cdb2da;
 }
@@ -370,14 +373,16 @@ background-color: #cdb2da !important;
   margin-bottom: 20px;
   margin-right: 10px;
 }
+
 button, select {
   text-transform: none;
 }
+/*
 button, input {
   overflow: visible;
     overflow-x: visible;
     overflow-y: visible;
-}
+}*/
 
 button, input, outgroup, select, testarea {
   margin: 0;
@@ -419,6 +424,7 @@ button {
   --breakpoint-xl: 1200px;
 }
 */
+/*
 .tutorials {
   flex: 0 0 100%;
     flex-grow:0;
@@ -431,8 +437,8 @@ button {
   padding-right: 15px;
 
 }
-
-
+*/
+/*
 .card-body p {
   display: block;
 }
@@ -443,11 +449,39 @@ button {
 }
 .grid-item {
   /*background-color: none !important;*/
-  border: none;
-  padding: 20px;
-  font-size: 20px;
-
+.tutorials_grid {
+  overflow: hidden;
 }
-.card-body {
-  background-color: white !important;
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.tutorials_grid {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.my-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.my-btn:hover {
+  background-color: #ddd;
 }

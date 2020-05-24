@@ -338,6 +338,19 @@ background-color: #cdb2da !important;
   color: #707070;
 }
 /*
+#showall:visited {
+  background-color: white;
+}
+
+#oreringe:visited {
+  background-color: white;
+}
+
+#armband {
+  background-color: white;
+}
+*/
+/*
 .tutorials {
   /*margin-left: 50px;
   margin-right: 50px; */
@@ -346,11 +359,9 @@ background-color: #cdb2da !important;
 /*  justify-content: space-between;
 }
 */
-.my-btn.active {
-  background-color: #cdb2da;
-}
+/*
 #showall {
-  background-color: #cdb2da;
+  background-color: white;
 }
 #oreringe {
   background-color: white;
@@ -358,6 +369,12 @@ background-color: #cdb2da !important;
 #armband {
   background: white;
 }
+*/
+
+#showall {
+  background-color: #cdb2da;
+}
+
 .my-btn {
   margin-top: 10px;
   color: #707070;
@@ -372,17 +389,18 @@ background-color: #cdb2da !important;
   /*margin-right: 5px;*/
   margin-bottom: 20px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 button, select {
   text-transform: none;
 }
-/*
+
 button, input {
   overflow: visible;
     overflow-x: visible;
     overflow-y: visible;
-}*/
+}
 
 button, input, outgroup, select, testarea {
   margin: 0;
@@ -449,39 +467,3 @@ button {
 }
 .grid-item {
   /*background-color: none !important;*/
-.tutorials_grid {
-  overflow: hidden;
-}
-
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.tutorials_grid {
-  margin-top: 20px;
-  overflow: hidden;
-}
-
-/* Style the buttons */
-.my-btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.my-btn:hover {
-  background-color: #ddd;
-}

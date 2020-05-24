@@ -86,19 +86,18 @@
   </div>
   <!-- Kategorier af tutorials er her -->
 
-  <div class="myBtnContainerTutorials">
-      <div class="col-12 pl-0">
-        <button class="my-btn active" onclick="filterSelection('all')">ALLE</button>
-        <button class="my-btn" onclick="filterSelection('oreringe')">ØRERINGE</button>
-        <button class="my-btn" onclick="filterSelection('armband')">ÅRMBAND</button>
-      </div>
+  <div class="kategorier_menu">
+    <div class="col-12 pl-0">
+      <button id="showall" class="my-btn" onclick="showAll()">ALLE</button>
+      <button id="oreringe" class="my-btn" onclick="oreringe()">ØRERINGE</button>
+      <button id="armband" class="my-btn" onclick="armband()">ÅRMBAND</button>
   </div>
 <!-- Alle tutorials kommer her -->
 
 <div class="tutorials_grid">
   <div class="row">
-    <div class="col-sm-4 pb-5">
-            <div class="card filterDiv oreringe">
+    <div id="daisy1_tutorials"class="col-sm-4 pb-5">
+            <div class="card">
               <img class="card-img-top" src="img/img1-1.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">//Daisy Ørering </h5>
@@ -108,8 +107,8 @@
               </div>
            </div>
     </div>
-    <div class="col-sm-4 pb-5 ">
-            <div class="card filterDiv armband">
+    <div id="freya1_tutorials"class="col-sm-4 pb-5 ">
+            <div class="card">
               <img class="card-img-top" src="img/img2-1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">//Freya Armbånd</h5>
@@ -119,8 +118,8 @@
               </div>
            </div>
     </div>
-    <div class="col-sm-4 pb-5">
-          <div class="card filterDiv oreringe">
+    <div id="evie1_tutorials"class="col-sm-4 pb-5">
+          <div class="card">
             <img class="card-img-top" src="img/img3-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">//Evie ørering</h5>
@@ -131,8 +130,8 @@
          </div>
     </div>
 
-    <div class="col-sm-4 pb-5">
-          <div class="card filterDiv oreringe">
+    <div id="evie2_tutorials"class="col-sm-4 pb-5">
+          <div class="card">
             <img class="card-img-top" src="img/img4-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">//Evie Ørering</h5>
@@ -143,8 +142,8 @@
          </div>
     </div>
 
-    <div class="col-sm-4 pb-5">
-          <div class="card filterDiv armband">
+    <div id="mia1_tutorials"class="col-sm-4 pb-5">
+          <div class="card">
             <img class="card-img-top" src="img/img5-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">//Mia Armbånd</h5>
@@ -155,8 +154,8 @@
          </div>
     </div>
 
-    <div class="col-sm-4 pb-5">
-          <div class="card filterDiv armband">
+    <div id="gilly_tutorials"class="col-sm-4 pb-5">
+          <div class="card">
             <img class="card-img-top" src="img/img7-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">//Gilly Armbånd</h5>
@@ -173,51 +172,54 @@
 </div>
 <!-- Javascript filtrering af knapper -->
 <script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x=document.getElementsByClassName("filterDiv");
-  if (c =="all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
+//Her tager den fat i knappen "showAll". Denne funktion startes af onClick som står oppe på knappen. Når der bliver klikket elementer med den pågældende ID stylet med display: _;
+		//Denne viser alle cocktails, derfor hedder de alle "block"
+		function showAll(){
+			document.getElementById("daisy1_tutorials").style.display = "block";
+			document.getElementById("freya1_tutorials").style.display = "block";
+			document.getElementById("evie1_tutorials").style.display = "block";
+			document.getElementById("evie2_tutorials").style.display = "block";
+			document.getElementById("mia1_tutorials").style.display = "block";
+			document.getElementById("gilly_tutorials").style.display = "block";
 
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
+			document.getElementById("showall").style.backgroundColor = "#cdb2da";
+			document.getElementById("oreringe").style.backgroundColor = "#ffffff";
+			document.getElementById("armband").style.backgroundColor = "#ffffff";
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("tutorials_grid");
-var btns = btnContainer.getElementsByClassName("my-btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+		}
+
+		//Denne tager fat i knappen "syrlig" og viser de syrlige cocktails dvs. cosmopolitan (display block). De andre for display none og bliver derfor ikke vist på siden
+		function oreringe(){
+			document.getElementById("daisy1_tutorials").style.display = "block";
+			document.getElementById("freya1_tutorials").style.display = "none";
+			document.getElementById("evie1_tutorials").style.display = "block";
+			document.getElementById("evie2_tutorials").style.display = "block";
+			document.getElementById("mia1_tutorials").style.display = "none";
+			document.getElementById("gilly_tutorials").style.display = "none";
+
+			document.getElementById("showall").style.backgroundColor = "#ffffff";
+			document.getElementById("oreringe").style.backgroundColor = "#cdb2da";
+			document.getElementById("armband").style.backgroundColor = "#ffffff";
+		}
+
+		function armband(){
+			document.getElementById("daisy1_tutorials").style.display = "none";
+			document.getElementById("freya1_tutorials").style.display = "block";
+			document.getElementById("evie1_tutorials").style.display = "none";
+			document.getElementById("evie2_tutorials").style.display = "none";
+			document.getElementById("mia1_tutorials").style.display = "block";
+			document.getElementById("gilly_tutorials").style.display = "block";
+
+			document.getElementById("showall").style.backgroundColor = "#ffffff";
+			document.getElementById("oreringe").style.backgroundColor = "#ffffff";
+			document.getElementById("armband").style.backgroundColor = "#cdb2da";
+
+		}
+
+
 
 </script>
-
 
 </div>
 

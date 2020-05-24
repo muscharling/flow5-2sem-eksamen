@@ -443,7 +443,7 @@ background-color: #cdb2da !important;
  color: #faf08f !important;
 }
 
-<<<<<<< HEAD
+
 .tutorial-link{
   background-color: #faf08f;
     border-color: #faf08f;
@@ -451,11 +451,11 @@ background-color: #cdb2da !important;
     text-decoration: none !important;
   }
 
-=======
+
 .card-body {
 border-top: 1px solid #cdb2da85 !important;
 }
->>>>>>> a7f6279597f98e46131e5102b9349ac1698cdd64
+
 /*
 .tutorials-grid {
   display: flex;

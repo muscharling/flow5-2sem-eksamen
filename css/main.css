@@ -378,6 +378,8 @@ background-color: #cdb2da !important;
 .my-btn {
   margin-top: 10px;
   color: #707070;
+  background-color: white;
+  outline: none;
   border:none;
   display: inline-block;
   text-align: center;

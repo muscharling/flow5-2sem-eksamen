@@ -109,20 +109,21 @@ a:hover {
 }
 
 /*styling af tekst/knapperne i slideshow*/
-.btn-primary {
+.btn-link {
 background-color: #faf08f00;
   border-color: #faf08f;
   color: #faf08f !important;
+  text-decoration: none !important;
 }
-.btn-primary:hover {
+.btn-link:hover {
   background-color: #cdb2da;
   border-color: #cdb2da;
   color: #faf08f !important;
 }
-.btn-primary:active {
-  background-color: #cdb2da82 !important;
-  border-color: #cdb2da82 !important;
-  color: #707070 !important;
+.btn-link:active {
+  background-color: #cdb2daf5 !important;
+  border-color: #cdb2daf5 !important;
+  color: #faf08f !important;
 }
 
 .buttonText {

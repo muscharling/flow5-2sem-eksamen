@@ -407,7 +407,7 @@ background-color: #cdb2da !important;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-  font-family: inherit;
+
 }
 
 .btn-tutorial {
@@ -416,17 +416,11 @@ background-color: #cdb2da !important;
   transition-duration: 0.2s !important;
   transition-timing-function: ease-out !important;
   transition-delay: 0s !important;
-}
-.btn-tutorial {
   text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-shadow: 0;
-  align-items: flex-start;
-  font: 400 11px system-ui;
+  font-size: 1.4rem !important;
 }
 .btn-tutorial:hover{
-background-color: #cdb2da !important;
+ background-color: #cdb2da !important;
  cursor: pointer;
  color: #faf08f !important;
 }

@@ -430,6 +430,10 @@ background-color: #cdb2da !important;
  cursor: pointer;
  color: #faf08f !important;
 }
+
+.card-body {
+border-top: 1px solid #cdb2da85 !important;
+}
 /*
 .tutorials-grid {
   display: flex;

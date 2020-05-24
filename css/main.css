@@ -392,17 +392,17 @@ background-color: #cdb2da !important;
   cursor: pointer;
 }
 
-button, select {
+.btn-tutorial, select {
   text-transform: none;
 }
 
-button, input {
+.btn-tutorial, input {
   overflow: visible;
     overflow-x: visible;
     overflow-y: visible;
 }
 
-button, input, outgroup, select, testarea {
+.btn-turorial, input, outgroup, select, testarea {
   margin: 0;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -410,20 +410,25 @@ button, input, outgroup, select, testarea {
   font-family: inherit;
 }
 
-button {
+.btn-tutorial {
   transition: all .2s ease-out !important;
   transition-property: all !important;
   transition-duration: 0.2s !important;
   transition-timing-function: ease-out !important;
   transition-delay: 0s !important;
 }
-button {
+.btn-tutorial {
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
   text-shadow: 0;
   align-items: flex-start;
   font: 400 11px system-ui;
+}
+.btn-tutorial:hover{
+background-color: #cdb2da !important;
+ cursor: pointer;
+ color: #faf08f !important;
 }
 /*
 .tutorials-grid {

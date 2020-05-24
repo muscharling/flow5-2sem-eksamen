@@ -447,13 +447,13 @@ button {
   grid-column-gap: 50px;
 }
 .grid-item {
-  background-color: none !important;
+  /*background-color: none !important;*/
   border: none;
   padding: 20px;
   font-size: 20px;
   text-align: left;
   align-items: center;
 }
-.card3 {
+/*.card3 {
   background-color: none !important;
-}
+}*/

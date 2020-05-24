@@ -350,10 +350,10 @@ background-color: #cdb2da !important;
   background-color: #cdb2da;
 }
 #oreringe {
-  background-color: #faf08f;
+  background-color: white;
 }
 #armband {
-  background: #faf08f;
+  background: white;
 }
 .my-btn {
   margin-top: 10px;
@@ -366,7 +366,7 @@ background-color: #cdb2da !important;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: .25rem;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
   margin-bottom: 20px;
 
 }
@@ -429,7 +429,7 @@ button {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px;
+  
 }
 
 

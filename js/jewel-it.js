@@ -127,8 +127,8 @@ function showAll(){
   document.getElementById("gilly_tutorials").style.display = "block";
 
   document.getElementById("showall").style.backgroundColor = "#cdb2da";
-  document.getElementById("oreringe").style.backgroundColor = "#ffffff";
-  document.getElementById("armband").style.backgroundColor = "#ffffff";
+  document.getElementById("oreringe").style.backgroundColor = "#fbeeadf5";
+  document.getElementById("armband").style.backgroundColor = "#fbeeadf5";
 
 }
 
@@ -141,9 +141,9 @@ function oreringe(){
   document.getElementById("mia1_tutorials").style.display = "none";
   document.getElementById("gilly_tutorials").style.display = "none";
 
-  document.getElementById("showall").style.backgroundColor = "#ffffff";
+  document.getElementById("showall").style.backgroundColor = "#fbeeadf5";
   document.getElementById("oreringe").style.backgroundColor = "#cdb2da";
-  document.getElementById("armband").style.backgroundColor = "#ffffff";
+  document.getElementById("armband").style.backgroundColor = "#fbeeadf5";
 }
 
 function armband(){
@@ -154,8 +154,8 @@ function armband(){
   document.getElementById("mia1_tutorials").style.display = "block";
   document.getElementById("gilly_tutorials").style.display = "block";
 
-  document.getElementById("showall").style.backgroundColor = "#ffffff";
-  document.getElementById("oreringe").style.backgroundColor = "#ffffff";
+  document.getElementById("showall").style.backgroundColor = "#fbeeadf5";
+  document.getElementById("oreringe").style.backgroundColor = "#fbeeadf5";
   document.getElementById("armband").style.backgroundColor = "#cdb2da";
 
 }

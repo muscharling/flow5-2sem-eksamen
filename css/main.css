@@ -135,7 +135,7 @@ background-color: #faf08f00;
 /* se alle tutorials knap*/
 .button {
     padding: 7px 7px;
-    background-color: #faf08f;
+    background-color: #fbeeadf5;
     width: 170px;
     text-decoration: none;
     color: #707070 !important;
@@ -173,7 +173,7 @@ padding: 0;
 
 .button2 {
   padding: 7px 20px 7px 20px;
-  background-color: #faf08f;
+  background-color: #fbeeadf5;
   width: 100px !important;
   text-decoration: none;
   color: #707070 !important;
@@ -246,7 +246,7 @@ background-position: top center;
 }
 .btn-without-border {
   padding: 3px 3px;
-  background-color: #faf08f;
+  background-color: white;
   width: 100px;
   text-decoration: none;
   color: #707070 !important;
@@ -312,7 +312,7 @@ background-color: #cdb2da !important;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #faf08f;
+  background-color: #fbeeadf5;
   color: #707070;
   cursor: pointer;
   padding-left: 15px;
@@ -337,46 +337,11 @@ background-color: #cdb2da !important;
 .text-center {
   color: #707070;
 }
-/*
-#showall:visited {
-  background-color: white;
-}
-
-#oreringe:visited {
-  background-color: white;
-}
-
-#armband {
-  background-color: white;
-}
-*/
-/*
-.tutorials {
-  /*margin-left: 50px;
-  margin-right: 50px; */
-  /*margin: 0px 73.5px;
-  /*padding: 0px 15px;*/
-/*  justify-content: space-between;
-}
-*/
-/*
-#showall {
-  background-color: white;
-}
-#oreringe {
-  background-color: white;
-}
-#armband {
-  background: white;
-}
-*/
-
-
-
+ /*filtreringsknapper*/
 .my-btn {
   margin-top: 10px;
   color: #707070;
-  background-color: white;
+  background-color: #fbeeadf5;
   outline: none;
   border:none;
   display: inline-block;
@@ -390,6 +355,7 @@ background-color: #cdb2da !important;
   margin-bottom: 20px;
   margin-right: 10px;
   cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .my-btn:focus{
   border: none !important;
@@ -435,6 +401,7 @@ background-color: #cdb2da !important;
   margin-bottom: 20px;
   margin-right: 10px;
   cursor: pointer;
+  background-color: #fbeeadf5;
 
 }
 .btn-tutorial:hover{
@@ -445,58 +412,16 @@ background-color: #cdb2da !important;
 
 
 .tutorial-link{
-  background-color: #faf08f;
-    border-color: #faf08f;
+  background-color: #fbeeadf5;
+    border-color: #fbeeadf5;
     color: #707070 !important;
     text-decoration: none !important;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      font-size: 1.4rem;
   }
 
 
 .card-body {
 border-top: 1px solid #cdb2da85 !important;
-background-color: #ffebfc;
 box-shadow: 2px 2px 2px rgba(0.1, 0.1, 0.1, 0.1);
 }
-
-/*
-.tutorials-grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  align-items: center;
-}
-
-:root {
-  --breakpoint-xs:0;
-  --breakpoint-sm:576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-}
-*/
-/*
-.tutorials {
-  flex: 0 0 100%;
-    flex-grow:0;
-    flex-shrink: 0;
-    flex-basis: 100%;
-  max-width: 100%;
-
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-
-}
-*/
-/*
-.card-body p {
-  display: block;
-}
-.tutorials-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-
-}
-.grid-item {
-  /*background-color: none !important;*/

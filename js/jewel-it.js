@@ -138,7 +138,7 @@ function oreringe(){
   document.getElementById("freya1_tutorials").style.display = "none";
   document.getElementById("evie1_tutorials").style.display = "block";
   document.getElementById("evie2_tutorials").style.display = "block";
-  document.getElementById("mia1_tutorials").style.display = "none";
+  document.getElementById("mia1_tutorials").style.display = "block";
   document.getElementById("gilly_tutorials").style.display = "none";
 
   document.getElementById("showall").style.backgroundColor = "#fbeeadf5";
@@ -151,7 +151,7 @@ function armband(){
   document.getElementById("freya1_tutorials").style.display = "block";
   document.getElementById("evie1_tutorials").style.display = "none";
   document.getElementById("evie2_tutorials").style.display = "none";
-  document.getElementById("mia1_tutorials").style.display = "block";
+  document.getElementById("mia1_tutorials").style.display = "none";
   document.getElementById("gilly_tutorials").style.display = "block";
 
   document.getElementById("showall").style.backgroundColor = "#fbeeadf5";

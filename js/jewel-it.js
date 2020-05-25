@@ -24,7 +24,7 @@
   }
 
 
-
+//initierer slide in og fade up animationerne
 AOS.init();
 
 // Kontakt formular

@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167590729-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167590729-1');
+</script>
   <meta charset="utf-8">
-  <meta name="description" content="Jewel-it er din online smykkeskole med let forståelige smykketutorials. Lær hvordan du laver de fineste Daisy perle øreringe. Video og step-by-step guide">
+  <meta name="description" content="Jewel•it er din DIY smykke-skole med let forståelige smykke-tutorials. Lær hvordan du laver de fineste Daisy perleøreringe eller andre smukke perlesmykker.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Nedenståede meta property tags har betydning for hvordan siden bliver vist ved deling på SoMe  -->
-  <meta property="og:title" content="♥ Jewel•it - Din Online Smykkeskole" />
-  <meta property="og:description" content="Video Smykketutorials (Inkl. Nem Step By Step Guide)" />
-  <meta property="og:image" content="img/shared-img-index.png" />
-  <meta property="og:url" content="https://muscharling.dk/jewelit/" />
-  <!--konverterer siden fra HTTP til HTTPS hvilket er med til at SEO optimere-->
-  <meta http-equiv=”Refresh” content=”0;URL=https://www.muscharling.dk/jewelit>
+  <meta property="og:title" content="♥ Jewel•it - DIY Online Smykke-skole" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Video Smykke-tutorials (Inkl. Nemme Step By Step Guides)" />
+  <meta property="og:image" content="img/shared-img-index.png"/>
+  <meta property="og:url" content="http://muscharling.dk/jewelit/index.html" />
+  <meta property="og:sitename" content="muscharling.dk/jewelit/index.html" />
   <link rel="icon" href="img/favicon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title> ♥ Jewel•it - Din Online Smykkeskole Med Inspirerende Video Smykketutorials (Inkl. Step By Step Guide)</title>
+  <title>DIY Smykke-skole Med Inspirerende (Video) Smykke-tutorials </title>
 </head>
 
 <body>
 
 
-  <!--- Nav-bar --->
+  <!-- Nav-bar -->
   <nav class="navbar shadow-sm fixed-top navbar-light bg-light navbar-expand-lg pb-3 pt-2">
     <div class="container-fluid">
       <a href="index.html" class="navbar-brand">
-        <img class="img-fluid" src="img/logo-jewelit.png" width="170">
+        <img class="img-fluid" src="img/Jewel•it.png" width="170" alt="Jewel•it logo til vores DIY side">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +49,7 @@
             <a class="nav-link" href="#om">OM JEWEL•IT</a>
           </li>
           <li class="nav-item pr-4">
-            <a class="nav-link" href="smykketutorials.html">SMYKKETUTORIALS</a>
+            <a class="nav-link" href="smykketutorials.html"> DIY SMYKKE-TUTORIALS</a>
           </li>
           <li class="nav-item pr-4">
             <a class="nav-link" href="shop.html">SHOP</a>
@@ -49,13 +58,13 @@
             <a class="nav-link" href="kontakt.html">KONTAKT</a>
           </li>
           <li class="nav-item pr-2">
-            <a class="nav-link" href="https://www.facebook.com/Jewelit-100183515049099/"><i class="fab fa-facebook-f"></i></a>
+            <a class="nav-link" href="https://www.facebook.com/Jewelit-100183515049099/"><i class="fab fa-facebook-f"id="fab"></i></a>
           </li>
           <li class="nav-item pr-2">
-            <a class="nav-link" href="https://www.instagram.com/jewel_it.diy/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="nav-link" href="https://www.instagram.com/jewel_it.diy/" target="_blank"><i class="fab fa-instagram"id="fab"></i></a>
           </li>
           <li class="nav-item pr-2">
-            <a class="nav-link" href="https://www.pinterest.dk/cecilie2108/" target="_blank"><i class="fab fa-pinterest"></i></a>
+            <a class="nav-link" href="https://www.pinterest.dk/cecilie2108/" target="_blank"><i class="fab fa-pinterest"id="fab"></i></a>
           </li>
         </ul><!-- navbar -->
       </div><!-- collapse -->
@@ -69,9 +78,8 @@
         <li class="breadcrumb-item active" aria-current="page"> <i class="fas fa-heart"></i>VELKOMMEN</li>
       </ol>
     </nav>
-    <h1 style="color:#707070; font-size:2rem;"> // DIN ONLINE SMYKKESKOLE!</h1>
-    <p>Lær at lave dine egne smykker - Jewel•it er DIN ONLINE SMYKKESKOLE! - man behøver hverken være udpræget kreativ eller super fingernem!<br> Vi har lavet en række smykketutorials, med forskellige sværhedsgrader, for den øvede såvel som mindre
-      øvede.<br> Vores smykketutorials er lavet, så de er nemme at forstå med både video samt Step By Step guide med uddybende beskrivelser - det skal være sjovt at lave smykker!</p>
+    <h1 style="color:#707070; font-size:2rem;"> // DIY SMYKKE-SKOLE!</h1>
+    <p>Lær at lave dine egne smykker - Jewel•it er din online DIY SMYKKE-SKOLE! - man behøver hverken være udpræget kreativ eller super fingernem!<br>Se et udvalg af vores smykke-tutorials nedenfor i slideshowet eller hop direkte til oversigten <a class="font-weight-bold" href="smykketutorials.html">DIY SMYKKE-TUTORIALS</a>.<br>Start sommeren med dit nye DIY smykke projekt - så er du klar til alle sommerens skønne fester. ENJOY!</p>
   </div>
 
   <!--slideshow-->
@@ -98,7 +106,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/daisy5.png" alt="Billede af Daisy ørering">
+                <img class="card-img" src="img/daisy5.png" alt="Billede af DIY Daisy ørering">
                 <div class="card-img-overlay">
                   <a href="daisy.html" class="btn btn-link"><span class="buttonText">Daisy ørering</span></a>
                 </div>
@@ -107,7 +115,7 @@
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/freya.png" alt="Billede af Freya armbånd">
+                <img class="card-img" src="img/freya.png" alt="Billede af DIY Freya armbånd">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Freya armbånd</span></a>
                 </div>
@@ -116,7 +124,7 @@
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img3-1.jpg" alt="Billede af Evie ørering">
+                <img class="card-img" src="img/img3-1.jpg" alt="Billede afDIY Evie ørering">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Evie ørering</span></a>
                 </div>
@@ -133,7 +141,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img4-1.jpg" alt="Billede af Evie ørering">
+                <img class="card-img" src="img/img4-1.jpg" alt="Billede af DIY Evie ørering">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Evie ørering</span></a>
                 </div>
@@ -151,7 +159,7 @@
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img5-1.jpg" alt="Billede af Mia armbånd">
+                <img class="card-img" src="img/img5-1.jpg" alt="Billede af  DIY Mia armbånd">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Mia armbånd</span></a>
                 </div>
@@ -168,7 +176,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img7-1.jpg" alt="Billede af Gilly armbånd">
+                <img class="card-img" src="img/img7-1.jpg" alt="Billede af DIY Gilly armbånd">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Gilly armbånd</span></a>
                 </div>
@@ -177,7 +185,7 @@
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img8-1.jpg" alt="Billede af Jade ørering">
+                <img class="card-img" src="img/img8-1.jpg" alt="Billede af DIY Jade ørering">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Jade ørering</span></a>
                 </div>
@@ -186,7 +194,7 @@
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card bg-dark text-center">
-                <img class="card-img" src="img/img9-1.jpg" alt="Billede af Vega ørering">
+                <img class="card-img" src="img/img9-1.jpg" alt="Billede af  DIY Vega ørering">
                 <div class="card-img-overlay">
                   <a class="btn btn-link"><span class="buttonText">Vega ørering</span></a>
                 </div>
@@ -220,10 +228,10 @@
           <br>
           <br>
 
-          <h2 class="display-3" style="color: #faf08f;">Jewel•it - Din online smykkeskole<br> Se nyeste smykketutorial</h2>
+          <h2 class="display-3" style="color: #faf08f;">Jewel•it - Din DIY smykke-skole<br> Se nyeste smykke-tutorial</h2>
 
           <br>
-          <img class="img-fluid mx-auto d-block" src="img/pil.png" width="20" alt="pil til nyeste smykketutorial" />
+          <img class="img-fluid mx-auto d-block" src="img/pil.png" width="20" alt="pil til nyeste smykke-tutorial" />
         </div>
       </div>
     </section>
@@ -234,16 +242,16 @@
     <div class="container" style="max-width: 1000px;">
       <div class="row">
         <div class="col-md-6">
-          <img class="img-fluid mx-auto d-block" src="img/daisy5.png" width="320" alt="Daisy Ørering">
+          <img class="img-fluid mx-auto d-block" src="img/daisy5.png" width="320" alt="DIY Daisy Ørering">
         </div>
         <div class="col-sm-6 text-center mx-auto pb-5 pt-2">
-          <h2 class="header mt-5 ">// LÆR AT LAVE DAISY-ØRERINGE</h2>
+          <h2 class="header mt-5 ">// LÆR AT LAVE DAISY ØRERINGE</h2>
           <p style="color: #faf08f;">Komplet liste over hvilke materialer du skal bruge <br>
-            Inspirerende og overskuelige smykketutorials<br>
+            Inspirerende og overskuelige smykke-tutorials<br>
             Video + uddybende beskrivelser<br>
-            Jewel•it - DIN ONLINE SMYKKESKOLE!
+            <strong>Jewel•it - DIN DIY SMYKKE-SKOLE!</strong>
           </p>
-          <a class="button2 mb-5" href="daisy.html">Se mere</a>
+          <a class="button2 mb-5" href="daisy.html">Se Video</a>
         </div>
       </div>
     </div>
@@ -253,13 +261,13 @@
   <div class="container pt-5 pb-5">
     <a id="om"></a>
     <h2 style="color:#707070;"> // OM JEWEL•IT</h2>
-    <p>Tanken bag Jewel•it er, at vi gerne vil dele ud af interessante og inspirerende smykketutorials, der er nemme at følge med videoer samt Step By Step guides. <br>Vi følger med i verden omkring os, vi er opdaterede på SoMe, hvilket betyder at
-      Jewel•it - DIN ONLINE SMYKKESKOLE er stedet, hvor du kan finde moderne og trendy smykketutorials. <br> Vores smykketutorials er lavet, så både øvede og mindre øvede, indenfor smykkefremstilling kan være med. Vi oplyser om sværhedsgrad, så du
-      ved hvor meget du bliver udfordret, inden du går igang <br> Ved hver tutorial giver vi dig en liste over hvilke materialer, du skal bruge - farver på perler etc. vælger du naturligvis selv. <br>- Og
+    <p>Tanken bag vores online DIY smykke-skole er, at vi gerne vil dele ud af interessante og inspirerende smykke-tutorials, der er nemme at følge med videoer samt Step By Step guides. <br>Vi følger med i verden omkring os, vi er opdaterede på SoMe, hvilket betyder at
+      Jewel•it - DIN DIY SMYKKE-SKOLE er stedet, hvor du kan finde moderne og trendy smykke-tutorials. <br> Vores tutorials er lavet, så både øvede og mindre øvede, indenfor smykkefremstilling kan være med. Vi oplyser om sværhedsgrad, så du
+      ved hvor meget du bliver udfordret, inden du går igang. <br> Ved hver tutorial giver vi dig en liste over hvilke materialer, du skal bruge - farver på perler etc. vælger du naturligvis selv. <br>Perlerne vi bruger i Daisy øreringen er de fine japanske Miyuki perler. Vi har fokus på at udvælge kvalitetsmaterialer, så dine smykker forbliver pæne i lang tid.<br>- Og
       'Stay tuned' - inden længe vil du få mulighed for at købe alle materialerne i vores <a class="font-weight-bold" href="shop.html">WEBSHOP</a>, nemmere bliver det ikke.<br> <br> FØLG OS på <a class="font-weight-bold"
         href="https://www.instagram.com/jewel_it.diy/" target="_blank">INSTAGRAM</a>, <a class="font-weight-bold" href="https://www.facebook.com/Jewelit-100183515049099/" target="_blank">FACEBOOK</a> og <a class="font-weight-bold"
         href="https://www.pinterest.dk/cecilie2108/" target="_blank">PINTEREST</a> og bliv inspireret i forhold til
-      farver og hvordan du kan styler dit outfit med dine helt egne smykker lavet efter smykketutorials fra Jewel•it ♥</p>
+      farver og hvordan du kan style dit outfit med dine helt egne smykker, lavet efter en af vores smykke-tutorials ♥</p>
   </div>
 
   <!--sign up nyhedsbrev-->
@@ -271,11 +279,11 @@
         <div class="text-center mt-5">
           <h2>// TILMELD DIG VORES NYHEDSBREV</h2>
           <p style="color: #faf08f;"> - og få et STARTER-KIT med materialer til én DAISY ørering - så er du igang!<br>
-            Jewel•it giver dig ny inspiration til dine smykke projekter. . <br> Video smykketutorials, der er nemme at følge<br> Information om materialer, tidsforbrug og sværhedsgrad.<br>
-            Jewel•it - DIN ONLINE SMYKKESKOLE!<br>
+            Vi giver dig ny inspiration til dine smykke projekter. . <br> Video smykke-tutorials, der er nemme at følge<br> Information om materialer, tidsforbrug og sværhedsgrad.<br>
+            Jewel•it - DIN DIY SMYKKE-SKOLE!<br>
             <i class="fas fa-heart"></i> </p>
           <div class="container text-center">
-            <form action="/thanks-signup.html" class="needs-validation" novalidate>
+            <form action="thanks-signup.html" class="needs-validation" novalidate>
               <div class="container" style="max-width:500px;">
                 <div class="row">
                   <div class="col-lg text-center">
@@ -319,7 +327,7 @@
     <div class="row">
       <div class="col-sm">
         <h4>//NYTTIGE LINKS</h4>
-        <p><a href="#"><i class="fas fa-cut"></i> MATERIALER </a></p>
+        <p><a href="shop.html"><i class="fas fa-cut"></i> MATERIALER </a></p>
         <p><a href="#"><i class="fas fa-mobile-alt"></i> DOWNLOAD APP </a></p>
       </div>
       <div class="col-sm">
@@ -343,7 +351,6 @@
     <div class="footer-copyright text-center py-2">© 2020 Copyright
       <p>Studieprojekt - af Cecilie, Karolina og Michaela, Eksamen - MulA, 2.sem. CphBusiness Academy. </p>
     </div>
-  
   </footer>
 
   <!-- sroll to top knap-->
